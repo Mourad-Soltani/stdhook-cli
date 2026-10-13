@@ -1,0 +1,15 @@
+[project]
+name = "stdhook-cli"
+version = "0.1.0"
+description = "Minimal CLI for Standard Webhooks signatures"
+authors = [{name = "Mourad.Soltani"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[project.scripts]
+stdhook = "src.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
